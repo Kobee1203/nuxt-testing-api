@@ -6,11 +6,4 @@ export default defineNuxtConfig({
       noscript: [{ children: 'Javascript is required' }],
     },
   },
-  vite: {
-    server: {
-      hmr: {
-        host: 'localhost',
-      },
-    },
-  },
 });
