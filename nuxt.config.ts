@@ -2,8 +2,12 @@
 export default defineNuxtConfig({
   app: {
     baseURL: '/hotel',
-    head: {
-      noscript: [{ children: 'Javascript is required' }],
+  },
+  vite: {
+    server: {
+      hmr: {
+        host: 'localhost',
+      },
     },
   },
 });
