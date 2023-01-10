@@ -3,7 +3,6 @@ import { fetch, $fetch, isDev, setup, url } from '@nuxt/test-utils';
 
 describe('Testing Server API', async () => {
   await setup({
-    //server: true,
     dev: true,
     setupTimeout: 240000,
   });
