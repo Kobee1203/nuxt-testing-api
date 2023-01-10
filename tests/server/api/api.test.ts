@@ -1,5 +1,5 @@
-import { describe, expect, it, beforeEach } from 'vitest';
-import { fetch, $fetch, isDev, setup, url } from '@nuxt/test-utils';
+import { describe, expect, it } from 'vitest';
+import { $fetch, setup, url } from '@nuxt/test-utils';
 
 describe('Testing Server API', async () => {
   await setup({
